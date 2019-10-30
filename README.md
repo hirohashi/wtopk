@@ -11,7 +11,7 @@ This implementation requires the following softwares.
 * Scipy
 
 ### Usage
-Basically, the weighted top-k SVM training for the dummy data (k.demo450_01.mat) with the reguralization parameter "C=10.0", and "exponentially decreased weights of k=3" can be executed by the following command.
+Basically, the weighted top-k SVM training for the dummy data (k.demo450_01.mat) with the regularization parameter "C=10.0", and "exponentially decreased weights of k=3" can be executed by the following command.
 ```
 $ python train_wtopk.py --dataset k.demo450_01.mat --c_svm 10.0 --rho_dist topk_exp --rho_param 3
 ```
